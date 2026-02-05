@@ -1,0 +1,94 @@
+/* RESET BASE */
+body {
+    background: #f4f6f9;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    color: #333;
+}
+
+/* CONTENITORE PRINCIPALE */
+.container {
+    margin-top: 30px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* TITOLO */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* BOTTONI */
+button {
+    padding: 8px 18px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+#idStart {
+    background-color: #28a745;
+    color: white;
+}
+
+#idStart:hover {
+    background-color: #218838;
+}
+
+#idReset {
+    background-color: #dc3545;
+    color: white;
+}
+
+#idReset:hover {
+    background-color: #c82333;
+}
+
+/* TABELLA */
+.table {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: white;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* OUTPUT */
+#output {
+    margin-top: 30px;
+}
+
+#output p {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* GANTT / PROGRESS BAR */
+.progress {
+    height: 30px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    line-height: 30px;
+    font-weight: 500;
+}
